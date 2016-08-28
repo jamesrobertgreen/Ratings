@@ -8,7 +8,7 @@ app.directive('starRating', function () {
         restrict: 'A',
         template: '<ul class="rating">' +
             '<li ng-repeat="star in stars" ng-class="star">' +
-            '\u2605' +
+            '<i class="ion-ios-star"></i>' +
             '</li>' +
             '</ul>',
         scope: {
